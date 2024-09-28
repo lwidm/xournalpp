@@ -1,0 +1,20 @@
+GIMP Palette
+Name: Custom Ordered Palette
+#
+# Non-Pastel Colors
+0 0 0 Black
+64 64 64 Dark Gray
+192 192 192 Light Gray
+255 255 255 White
+0 0 139 Dark Blue
+173 216 230 Light Blue
+0 128 0 Dark Green
+144 238 144 Light Green
+255 0 0 Red
+255 165 0 Orange
+255 255 0 Yellow
+135 206 250 Pastel Dark Blue
+152 251 152 Pastel Dark Green
+255 105 97 Pastel Red
+255 218 185 Pastel Orange
+255 255 224 Pastel Yellow
