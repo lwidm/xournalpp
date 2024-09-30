@@ -43,7 +43,7 @@
   <!--Which GUI elements are shown in presentation view mode, separated by a colon (,)-->
   <property name="presentationViewModeAttributes" value="goFullscren,showToolbar"/>
   <!--The cursor icon used with a stylus, allowed values are "none", "dot", "big", "arrow"-->
-  <property name="stylusCursorType" value="big"/>
+  <property name="stylusCursorType" value="none"/>
   <!--The eraser cursor visibility used with a stylus, allowed values are "never", "always", "hover", "touch"-->
   <property name="eraserVisibility" value="always"/>
   <!--The icon theme, allowed values are "iconsColor", "iconsLucide"-->
@@ -165,6 +165,18 @@
     </data>
   </data>
   <data name="deviceClasses">
+    <data name="Microsoft HIDI2C Device Eraser">
+      <attribute name="deviceClass" type="int" value="3"/>
+      <attribute name="deviceSource" type="int" value="2"/>
+    </data>
+    <data name="Microsoft HIDI2C Device Finger touch">
+      <attribute name="deviceClass" type="int" value="4"/>
+      <attribute name="deviceSource" type="int" value="5"/>
+    </data>
+    <data name="Microsoft HIDI2C Device Pen stylus">
+      <attribute name="deviceClass" type="int" value="2"/>
+      <attribute name="deviceSource" type="int" value="1"/>
+    </data>
     <data name="System Aggregated Pointer">
       <attribute name="deviceClass" type="int" value="1"/>
       <attribute name="deviceSource" type="int" value="0"/>
@@ -174,6 +186,14 @@
       <attribute name="deviceSource" type="int" value="2"/>
     </data>
     <data name="Wacom Co.,Ltd. Wacom Intuos Pro M Pen stylus">
+      <attribute name="deviceClass" type="int" value="2"/>
+      <attribute name="deviceSource" type="int" value="1"/>
+    </data>
+    <data name="Wacom Wacom HID Router Eraser">
+      <attribute name="deviceClass" type="int" value="3"/>
+      <attribute name="deviceSource" type="int" value="2"/>
+    </data>
+    <data name="Wacom Wacom HID Router Pen stylus">
       <attribute name="deviceClass" type="int" value="2"/>
       <attribute name="deviceSource" type="int" value="1"/>
     </data>
@@ -207,7 +227,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="highlighter">
-      <attribute name="color" type="hex" value="008000"/>
+      <attribute name="color" type="hex" value="000000"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
@@ -237,7 +257,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="selectPdfTextLinear">
-      <attribute name="color" type="hex" value="000000"/>
+      <attribute name="color" type="hex" value="3c000000"/>
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="selectPdfTextRect">
