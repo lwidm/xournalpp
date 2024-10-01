@@ -43,15 +43,15 @@
   <!--Which GUI elements are shown in presentation view mode, separated by a colon (,)-->
   <property name="presentationViewModeAttributes" value="goFullscren,showToolbar"/>
   <!--The cursor icon used with a stylus, allowed values are "none", "dot", "big", "arrow"-->
-  <property name="stylusCursorType" value="none"/>
+  <property name="stylusCursorType" value="dot"/>
   <!--The eraser cursor visibility used with a stylus, allowed values are "never", "always", "hover", "touch"-->
   <property name="eraserVisibility" value="always"/>
   <!--The icon theme, allowed values are "iconsColor", "iconsLucide"-->
   <property name="iconTheme" value="iconsLucide"/>
-  <property name="highlightPosition" value="false"/>
-  <property name="cursorHighlightColor" value="2147483648"/>
-  <property name="cursorHighlightBorderColor" value="2147483903"/>
-  <property name="cursorHighlightRadius" value="10"/>
+  <property name="highlightPosition" value="true"/>
+  <property name="cursorHighlightColor" value="4278190080"/>
+  <property name="cursorHighlightBorderColor" value="4278190080"/>
+  <property name="cursorHighlightRadius" value="0"/>
   <property name="cursorHighlightBorderWidth" value="0"/>
   <property name="darkTheme" value="true"/>
   <property name="useStockIcons" value="false"/>
@@ -138,7 +138,7 @@
     <data name="default">
       <attribute name="color" type="hex" value="ff000000"/>
       <attribute name="drawingType" type="string" value="default"/>
-      <attribute name="size" type="string" value="thick"/>
+      <attribute name="size" type="string" value="medium"/>
       <attribute name="tool" type="string" value="pen"/>
     </data>
     <data name="eraser">
@@ -237,11 +237,11 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="ff0000"/>
+      <attribute name="color" type="hex" value="000000"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
-      <attribute name="size" type="string" value="VERY_BIG"/>
+      <attribute name="size" type="string" value="BIG"/>
       <attribute name="style" type="string" value="plain"/>
     </data>
     <data name="playObject">
