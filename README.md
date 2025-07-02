@@ -3,7 +3,7 @@
 ### Linux
 
 - check if the directory `~\.config\xournalpp`exists. If so delete it.
-- Go to directory `~\config\xournalpp`
+- Go to directory `~\.config`
 - Clone this repo
   ```zsh
   git clone https://github.com/lwidm/xournalpp
