@@ -6,7 +6,7 @@
 - Go to directory `~\.config`
 - Clone this repo
   ```zsh
-  git clone https://github.com/lwidm/xournalpp
+  git clone git@github.com:lwidm/xournalpp.git
   ```
 - Start xournalpp
 
